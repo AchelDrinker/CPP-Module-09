@@ -6,7 +6,7 @@
 /*   By: humartin <humartin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 16:42:01 by humartin          #+#    #+#             */
-/*   Updated: 2023/03/14 12:30:07 by humartin         ###   ########.fr       */
+/*   Updated: 2023/03/15 14:25:23 by humartin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
     }
     
     // Charge les prix du Bitcoin à partir du fichier CSV
-    BitcoinExchange exchange("BTC-USD.csv");
+    BitcoinExchange exchange("data.csv");
 
     // Traite le fichier d'entrée et calcule les taux de change
     std::ifstream input(argv[1]);
