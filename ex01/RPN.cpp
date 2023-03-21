@@ -80,6 +80,11 @@ void RPN::add_data(std::string data)
                     stack.push(a * b);
                     break;
                 case '/':
+                     if(b == 0)
+                     {
+                        std::cout << "Error : division by zero" << std::endl;
+                        return;
+                     }
                     stack.push(a / b);
                     break;
             }
