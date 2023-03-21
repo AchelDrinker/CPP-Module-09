@@ -25,7 +25,8 @@ BitcoinExchange::BitcoinExchange(const std::string& bitcoinPricesFile)
         std::istringstream ss(line);
         std::string dateStr;
         double price;
-        std::getline(ss, dateStr, '|');
+        std::getline(ss, dateStr, ',');
+        dateStr = dateStr + ' ';
         ss >> price;
         (*m_prices)[dateStr] = price;
     }
