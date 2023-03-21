@@ -98,13 +98,13 @@ Check that the program runs correctly using different formulas of your choice.
 
 Here is some tests:
 
-89 * 9 - 9 - 9 - 4 - 1 +
+8 9 * 9 - 9 - 9 - 4 - 1 +
 > Result: 42
 
-98 * 4 * 4 / 2 + 9 - 8 - 8 - 1 - 6 -
+9 8 * 4 * 4 / 2 + 9 - 8 - 8 - 1 - 6 -
 > Result: 42
 
-12 * 2 / 5 + 46 * 6 / 8 * 2 / + 2 * 2 
+1 2 * 2 / 5 + 4 6 * 6 / 8 * 2 / + 2 * 2 -
 > Result: 42
 
 You can use the examples in the topic if you don't know which formula to use.
